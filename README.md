@@ -8,9 +8,9 @@
 
 ![FluxGet](fluxget-main.bmp)
 
-**Desktop v0.2.55** · Windows 10/11 · 64-bit
+**Desktop v0.2.56** · Windows 10/11 · 64-bit
 
-[Download for Windows](https://github.com/salahlarosa-art/FluxGet/releases/latest) · [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/fluxget/) · [Support FluxGet](https://ko-fi.com/salah_95)
+[Download for Windows](https://github.com/salahlarosa-art/FluxGet/releases/latest) · [Chrome Extension](https://chromewebstore.google.com/detail/fluxget-download-with-flu/onoiljcgbjdpbbkcfdbjlfknfghmfhlh) · [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/fluxget/) · [Support FluxGet](https://ko-fi.com/salah_95)
 
 </div>
 
@@ -39,6 +39,7 @@ FluxGet runs locally on your Windows PC and integrates with Chrome/Chromium brow
 - Global and per-download speed limits
 - Download queues with reordering controls
 - Search, sorting, status filters and file-category filters
+- Browser download capture
 
 > Segmented downloading and resume support depend on the server supporting HTTP byte ranges.
 
@@ -99,25 +100,27 @@ The extensions can:
 
 ## 🌐 Browser Extensions
 
+### 🌐 Chrome / Chromium
+
+FluxGet is officially available on the **Chrome Web Store**.
+
+**[Install FluxGet for Chrome](https://chromewebstore.google.com/detail/fluxget-download-with-flu/onoiljcgbjdpbbkcfdbjlfknfghmfhlh)**
+
+Current extension version: **0.2.46**
+
+The extension connects Chrome to the FluxGet desktop application for download capture, **Download with FluxGet** actions, magnet links, and supported video downloads.
+
+It can also work with Chromium-family browsers such as Edge, Brave and Opera, subject to their extension policies.
+
 ### 🦊 Firefox
 
-The official FluxGet Firefox extension is available from Mozilla Add-ons.
+The official FluxGet Firefox extension is available from **Mozilla Add-ons**.
 
 **[Install FluxGet for Firefox](https://addons.mozilla.org/en-US/firefox/addon/fluxget/)**
 
 Current extension version: **0.2.46**
 
-### 🌐 Chrome / Chromium
-
-Install FluxGet directly from the official Chrome Web Store:
-
-**[Install FluxGet for Chrome](https://chromewebstore.google.com/detail/fluxget-download-with-flu/onoiljcgbjdpbbkcfdbjlfknfghmfhlh)**
-
-The extension connects your browser to the FluxGet desktop application for download capture, "Download with FluxGet" actions, magnet links, and supported video downloads.
-
-> FluxGet must be running on your computer for the browser extension to send downloads to the desktop app.
-
-The extension can also work with Chromium-family browsers such as Edge, Brave and Opera, subject to their extension policies.
+> FluxGet must be running on your computer for the browser extensions to send downloads to the desktop app.
 
 ---
 
@@ -171,11 +174,14 @@ Closing the main FluxGet window can keep the download engine running in the syst
 ### Install FluxGet
 
 1. Open the **[latest FluxGet release](https://github.com/salahlarosa-art/FluxGet/releases/latest)**.
-2. Download `FluxGet-Setup-0.2.55.exe`.
+2. Download `FluxGet-Setup-0.2.56.exe`.
 3. Run the installer.
 4. Read and accept the FluxGet End User License and Responsible Use Agreement.
 5. Complete the installation.
 6. Launch FluxGet.
+7. Install the official browser extension for **[Chrome](https://chromewebstore.google.com/detail/fluxget-download-with-flu/onoiljcgbjdpbbkcfdbjlfknfghmfhlh)** or **[Firefox](https://addons.mozilla.org/en-US/firefox/addon/fluxget/)**.
+
+When Chrome or Firefox is your default browser, FluxGet can open the matching official extension store after installation.
 
 ### ⚠️ Windows SmartScreen
 
@@ -244,7 +250,6 @@ Users are responsible for complying with applicable laws, website terms and cont
 - Download speed depends on the server, CDN, network, disk and protocol
 - Resume and segmented downloading require compatible HTTP range support
 - FluxGet must be running for browser-extension handoff
-- Chrome extension installation is currently manual
 - The Windows installer is currently unsigned
 
 ---
@@ -296,8 +301,8 @@ This repository and FluxGet should not be considered open-source software unless
 
 ### Download smarter. Stay in control.
 
-**[Download FluxGet](https://github.com/salahlarosa-art/FluxGet/releases/latest)** · **[Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/fluxget/)** · **[Support Development](https://ko-fi.com/salah_95)**
+**[Download FluxGet](https://github.com/salahlarosa-art/FluxGet/releases/latest)** · **[Chrome Extension](https://chromewebstore.google.com/detail/fluxget-download-with-flu/onoiljcgbjdpbbkcfdbjlfknfghmfhlh)** · **[Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/fluxget/)** · **[Support Development](https://ko-fi.com/salah_95)**
 
-**Desktop v0.2.55 · Extensions v0.2.46**
+**Desktop v0.2.56 · Extensions v0.2.46**
 
 </div>
