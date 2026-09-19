@@ -109,21 +109,13 @@ Current extension version: **0.2.46**
 
 ### 🌐 Chrome / Chromium
 
-Current extension version: **0.2.46**
+Install FluxGet directly from the official Chrome Web Store:
 
-The Chrome Web Store version is not currently published. Manual installation is temporarily available while store review is pending.
+**[Install FluxGet for Chrome](https://chromewebstore.google.com/detail/fluxget-download-with-flu/onoiljcgbjdpbbkcfdbjlfknfghmfhlh)**
 
-The FluxGet Windows installation includes the unpacked Chrome extension.
+The extension connects your browser to the FluxGet desktop application for download capture, "Download with FluxGet" actions, magnet links, and supported video downloads.
 
-### Install the Chrome extension
-
-1. Install and open FluxGet.
-2. Open **Settings** in FluxGet.
-3. Use the Chrome extension option to open the installed extension folder.
-4. Open Chrome and go to `chrome://extensions`.
-5. Enable **Developer mode**.
-6. Click **Load unpacked**.
-7. Select the FluxGet Chrome extension folder opened by FluxGet.
+> FluxGet must be running on your computer for the browser extension to send downloads to the desktop app.
 
 The extension can also work with Chromium-family browsers such as Edge, Brave and Opera, subject to their extension policies.
 
